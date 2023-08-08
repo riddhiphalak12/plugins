@@ -1,0 +1,24 @@
+/* STYLES */
+.empl-biography-container{
+    display:flex;}
+
+.empl-biography-container > div.empl-biography-content-wrap {
+  flex-shrink: 0;
+  flex-basis: 70%;
+}
+.empl-biography-container > div.empl-biography-img-wrap {
+}
+.empl-biography-container > div {
+  padding: 10px;
+  margin: 1rem;
+}
+
+
+@media only screen and (max-width: 900px) {
+  .empl-biography-container{
+    flex-direction: column;
+  }
+  .empl-biography-container > div {
+    margin: 0 0 1rem;
+  }
+}
